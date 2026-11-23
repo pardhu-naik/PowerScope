@@ -1,0 +1,6 @@
+{
+  "name": "PowerScope",
+  "description": "Real-time battery power consumption, hardware telemetry, and per-app activity monitor with Room logging, interactive dual-metric Canvas charts, and CSV export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

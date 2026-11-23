@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PowerScope</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_app_drain">App Drain</string>
+    <string name="nav_trends">Trends</string>
+    <string name="nav_history">History</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Welcome to PowerScope</string>
+    <string name="onboarding_subtitle">To attribute real-time battery drain across active apps and network radios, PowerScope uses Usage Access permission.</string>
+    <string name="onboarding_usage_title">Usage &amp; Network Access</string>
+    <string name="onboarding_usage_desc">Reads foreground app duration, foreground services, and per-app Wi-Fi / Cellular data usage.</string>
+    <string name="onboarding_grant_usage">Grant Usage Access</string>
+    <string name="onboarding_usage_granted">Usage Access Granted</string>
+    <string name="onboarding_notif_title">Notifications (Optional)</string>
+    <string name="onboarding_notif_desc">Allows system status updates for background telemetry alerts.</string>
+    <string name="onboarding_enable_notif">Enable Notifications</string>
+    <string name="onboarding_continue_battery_only">Continue in Battery-Only Mode</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Live Telemetry</string>
+    <string name="dashboard_subtitle">Real-time battery current, wattage &amp; system power state</string>
+    <string name="dashboard_charging">CHARGING</string>
+    <string name="dashboard_discharging">DISCHARGING</string>
+    <string name="dashboard_metric_current">Current</string>
+    <string name="dashboard_metric_voltage">Voltage</string>
+    <string name="dashboard_metric_temp">Temp</string>
+    <string name="dashboard_status_screen">Screen</string>
+    <string name="dashboard_status_saver">Battery Saver</string>
+    <string name="dashboard_status_doze">Doze</string>
+    <string name="dashboard_log_snapshot">Log Snapshot Now</string>
+    <string name="dashboard_sampling">Sampling Telemetry…</string>
+    <string name="dashboard_top_consumers">Top Power Consumers (24h)</string>
+    <string name="dashboard_see_all">See All</string>
+    <string name="dashboard_empty_consumers">No app drain logs recorded yet. Tap \"Log Snapshot Now\" above to capture an immediate attribution sample.</string>
+    <string name="dashboard_snapshot_success">Snapshot logged successfully</string>
+
+    <!-- App Drain -->
+    <string name="app_drain_title">Task &amp; App Drain</string>
+    <string name="app_drain_sample_now">Sample Now</string>
+    <string name="app_drain_empty">No attributed app drain logs in this window yet. Tap the refresh icon above or wait for the next 15-minute sample.</string>
+    <string name="app_drain_permission_banner_title">Usage Access Needed for App Attribution</string>
+    <string name="app_drain_permission_banner_body">Enable Usage Access in system settings to measure per-app screen, background service, and network power drain.</string>
+    <string name="app_drain_breakdown_composition">Weighted Resource Composition</string>
+    <string name="app_drain_label_power">Estimated Power Consumed</string>
+    <string name="app_drain_label_share">Drain Share of Window</string>
+    <string name="app_drain_label_fg">Foreground Screen Time</string>
+    <string name="app_drain_label_bg">Background / FG Service</string>
+    <string name="app_drain_label_wifi">Wi-Fi Data Transferred</string>
+    <string name="app_drain_label_mobile">Mobile Cellular Data</string>
+
+    <!-- History & Export -->
+    <string name="history_title">History &amp; Export</string>
+    <string name="history_export_csv">Export CSV</string>
+    <string name="history_log_table">Telemetry Log Table</string>
+    <string name="history_empty">No historical entries for this range yet. Capture snapshots from the Dashboard to build your power timeline.</string>
+    <string name="history_chart_empty">Collect at least 2 snapshots to render the dual-metric timeline chart</string>
+    <string name="history_col_time">Time</string>
+    <string name="history_col_batt">Batt</string>
+    <string name="history_col_ma">mA</string>
+    <string name="history_col_power">Power</string>
+    <string name="history_col_temp">Temp</string>
+
+    <!-- Trends & Insights -->
+    <string name="trends_title">Trend Analysis</string>
+    <string name="trends_subtitle">Long-term battery health, discharge drift &amp; charging cycles</string>
+    <string name="trends_score_label">SCORE</string>
+    <string name="trends_kpi_avg_draw">Avg Discharge</string>
+    <string name="trends_kpi_thermal">Thermal Avg</string>
+    <string name="trends_kpi_voltage">Avg Voltage</string>
+    <string name="trends_kpi_standby_vs_active">Standby Draw</string>
+    <string name="trends_efficiency_chart_title">Discharge Efficiency Trend</string>
+    <string name="trends_efficiency_chart_desc">Chronological power draw buckets with linear drift slope</string>
+    <string name="trends_chart_need_more_samples">Log at least 2 battery snapshots to visualize power efficiency trends</string>
+    <string name="trends_regression_legend">Trendline</string>
+    <string name="trends_charging_cycles_title">Charging Cycle Duration</string>
+    <string name="trends_avg_cycle_duration">Avg Cycle</string>
+    <string name="trends_est_full_charge">Est. 0–100%</string>
+    <string name="trends_avg_charge_power">Charge W</string>
+    <string name="trends_cycles_empty">No complete charging cycles detected in this window yet. Keep PowerScope running while charging to track duration &amp; thermal speed.</string>
+    <string name="trends_insights_section">Long-Term Insights</string>
+</resources>
